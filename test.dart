@@ -27,8 +27,6 @@ void main() {
 
     // Club game
 
- 
-
     if (age < 25) {
       print("You are not allowed in this club");
     } else {
