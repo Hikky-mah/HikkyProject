@@ -64,7 +64,6 @@ void main() {
       print("You are not allowed in this club");
     } else {
       print("Welcome, $name");
-    }
-    print(paragraph);
+      print(paragraph);
                         
 }
