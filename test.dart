@@ -1,4 +1,5 @@
-import 'dart:io';
+import 'input.dart';
+
 void main() {
     dynamic name;
     dynamic age;
@@ -10,61 +11,61 @@ void main() {
     dynamic favFood;
     dynamic favColor;
     dynamic hobby;
+    
+     while (name == null || name.toString().trim().isEmpty ||
+     age == null || 
+     nationality == null ||  nationality.toString().trim().isEmpty ||
+     religion == null || religion.toString().trim().isEmpty || 
+     stateOfOrigin == null || stateOfOrigin.toString().trim().isEmpty || 
+     address == null || address.toString().trim().isEmpty || 
+     occupation == null ||  occupation.toString().trim().isEmpty ||
+     favFood == null ||  favFood.toString().trim().isEmpty || 
+     favColor == null || favColor.toString().trim().isEmpty ||
+     hobby == null || hobby.toString().trim().isEmpty) {
 
-    print("Enter your name:");
-    name = stdin.readLineSync()!;
+     name = input("Enter your name: ");
 
-    print("Enter your age:");
-    age = int.parse(stdin.readLineSync()!);
+     age = int.tryParse(input("Enter your age: ")) ;
 
-    print("Enter your nationality:");
-    nationality = stdin.readLineSync()!;
+     nationality = input("Enter your nationality: ");
 
-    print("Enter your religion:");
-    religion = stdin.readLineSync()!;
+     religion = input("Enter your religion: ");
 
-    print("Enter your state of origin:");
-    stateOfOrigin = stdin.readLineSync()!;
+     stateOfOrigin = input("Enter your state of origin: ");
 
-    print("Enter your address:");
-    address = stdin.readLineSync()!;
+     address = input("Enter your address: ");
 
-    print("Enter your occupation:");
-    occupation = stdin.readLineSync()!;
+     occupation = input("Enter your occupation: ");
 
-    print("Enter your favourite food:");
-    favFood = stdin.readLineSync()!;
+     favFood = input("Enter your favourite food: ");
 
-    print("Enter your favourite color:");
-    favColor = stdin.readLineSync()!;
+     favColor = input("Enter your favourite color: ");
 
-    print("Enter your hobby:");
-    hobby = stdin.readLineSync()!;
+     hobby = input("Enter your hobby: ");
 
-
+     if (name == null || age == null || nationality == null || religion == null || stateOfOrigin == null || address == null || occupation == null || favFood == null || favColor == null || hobby == null) print("All fields are required pookie!!!");
+    }
 
 
     int year = DateTime.now().year;
     int day = DateTime.now().day;
     int month = DateTime.now().month;
-    String todaysDate = "${day}st/$month/$year";
+    String todaysDate = "${day}/$month/$year";
 
 
-    String paragraph;
-    paragraph = """Hello, my name is $name. I am $age years old. I am a $nationality and I practice $religion.
+  String paragraph;
+   paragraph = """Hello, my name is $name. I am $age years old. I am a $nationality and I practice $religion.
      I am from $stateOfOrigin but I live in $address. I am a $occupation. 
      My fav food is $favFood and my fav color is $favColor. I love $hobby when I am free""";
 
+     //Club game
 
-    String ayoParagraph = "\tHello, my name is $name. I am ${age + 5} years old. I am a ${nationality.toUpperCase()} \and I practice $religion. \nI am from $stateOfOrigin but I live in $address. \nToday's date is $todaysDate";
-
-    // Club game
-
-    if (age < 25) {
+    if (nationality == "Nigerian") {
       print("You are not allowed in this club");
     } else {
-      print("Welcome, $name");
+      print("Welcome✌️, $name");
       print(paragraph);
+      print("Today's date is $todaysDate");
     }
                         
 }
