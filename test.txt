@@ -1,7 +1,29 @@
 
 
-negation ! 
-conjunction &&
-disjunction ||
-implication !||
-equivalence ==
+
+Strings and Arrays
+
+array_of_double = [1.0,5.9,4.0] -> array_of_double[0]
+
+2d_array = [[1,3,4], ["Strings","Hikmat"]] -> 2d_array[0][1]
+
+3d_array = [ [[1,2,3], ["Hikmat", "4, street"]], [[]] ] 3d_array[0][1][0]
+
+assoc_array = {
+    "names": ["Hikmat", "Ayo"],
+    "class": ["JSS1", "SS3"]
+} 
+
+
+
+
+Linked List
+
+Stacks - LIFO
+Queues - FIFO
+
+Trees - Binary Search Trees
+
+Hashing
+
+Graphs
