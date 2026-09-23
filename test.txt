@@ -27,3 +27,55 @@ Trees - Binary Search Trees
 Hashing
 
 Graphs
+
+
+if (n < 0) { c1
+    newN = absval(n) c2
+} else {
+    newN = n; c3
+}
+
+
+c1 + max(c2, c3)
+
+sum = 0; c1
+for (i = 0; i < 10; i++) { c2 n + 1
+    sum += i; c3 n
+}
+
+c1 + c2 * (n + 1) + c3*n
+
+
+
+Growth function
+ll = [1,2,3,4,5,6,7,8,9,10] = g(n) = O(g(n)) - Big O notation
+Algorithm li requires the time proportional to n. It is noted as O(n)
+
+list = [1,24,5,6,8,3,77,17,4,50,32] = n
+
+c
+log n
+n
+n log n
+n^2
+n^3
+2^n
+n!
+
+
+f(n) = 2n^2 + 5n - 7
+
+k*n^2 >  2n^2 + 5n - 7
+
+3*n^2 > 2n^2 + 5n - 7
+
+O(3n^2) = O(n^2)
+
+
+Dijkstra, huffman, kruskal, kadane, Knapsack, Fibonacci memoized
+
+
+linear_search = ["Ayomide", "Benjamin", "Collins", "David", "Enoch", "Femi", "Gbenga"]
+
+
+[3,3,4,6,7,8,9]

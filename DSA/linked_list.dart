@@ -1,4 +1,3 @@
-import 'dart:collections';
 
 class Node<T> {
     T data;
