@@ -10,6 +10,8 @@ void main() {
 
 
 
+
+
 int firstUniqueCharacter(String s) {
   String newS = s.split(' ').join().toLowerCase();
   // swiss
