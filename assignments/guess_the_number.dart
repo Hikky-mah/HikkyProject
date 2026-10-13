@@ -1,5 +1,5 @@
 import 'dart:math';
-import '../input.dart';
+import 'input.dart';
 
 void main() {
   int number = randomNumber();

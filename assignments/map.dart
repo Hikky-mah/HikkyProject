@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import '../input.dart';
+import 'input.dart';
 void main () {
   List<dynamic> students = jsonDecode((input("Enter List of Students: ")));
   List<Map<String, dynamic>> listOfStudents = students.map((e) => e as Map<String, dynamic>,).toList();

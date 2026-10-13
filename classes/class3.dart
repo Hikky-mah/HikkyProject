@@ -2,7 +2,7 @@
 
 import 'dart:async';
 
-import '../input.dart';
+import '../oop/input.dart';
 
 void main() {
   bool islogging = true;
@@ -28,8 +28,6 @@ void main() {
 
 
 
-
-
 double divideNumbers(int a, int b) {
   if (b == 0) {
     throw ArgumentError("You can't divide by zero!");
@@ -37,8 +35,6 @@ double divideNumbers(int a, int b) {
 
   return a / b;
 }
-
-
 
 
 class InsufficientFundsException implements Exception {

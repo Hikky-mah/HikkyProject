@@ -1,4 +1,4 @@
-import '../input.dart';
+import 'input.dart';
 
 String gradeLetters(int score) {
   if (score >= 70) {

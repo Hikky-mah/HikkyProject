@@ -1,4 +1,4 @@
-import '../input.dart';
+import 'input.dart';
 void main () {
   String name;
   dynamic secret = 8;

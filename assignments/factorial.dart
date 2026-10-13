@@ -1,4 +1,4 @@
-import '../input.dart';
+import 'input.dart';
 
 void main() {
   final user = input("Enter a number: ");

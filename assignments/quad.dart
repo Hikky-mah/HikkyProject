@@ -1,5 +1,5 @@
 import 'dart:math';
-import '../input.dart';
+import 'input.dart';
 List<double> quadraticEquation (int a, int b, int c) {
   int discriminant =  (b * b) - (4 * a * c); 
   if (discriminant < 0) {

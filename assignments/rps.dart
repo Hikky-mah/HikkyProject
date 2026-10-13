@@ -1,5 +1,5 @@
 import 'dart:math';
-import '../input.dart';
+import 'input.dart';
 String Winner(String userChoice, String ComputerChoice) {
   if (userChoice == 'rock' && ComputerChoice == 'scissors') {
     return 'user';
